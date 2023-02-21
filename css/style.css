@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+.body {
+    font-family: 'DM Sans', 'Arial', sans-serif; 
+    font-weight: 400px;
+    font-style: normal;
+    min-width: 991px;
+}
+
+.container {
+    max-width: 1320px;
+    min-width: 991px;
+    margin: 0 auto;
+    padding: 0 120px;
+}
+
+.bg {
+    background-color: blueviolet;
+}
+
+.header {
+    display: flex;
+    padding-top: 30px;
+}
+
+.header-title {
+    font-size: 26px;
+    margin-left: 30px;
+    padding-bottom: 30px;
+}
+
+.form {
+    margin-top: 30px;
+    display: flex;
+}
+
+.form-input {
+    margin-right: 50px;
+    max-width: 50%;
+}
+
+.button {
+    margin-top: 30px;
+}
+
+
+.form-text {
+    max-width: 50%;
+}
+.form-text p {
+    padding-bottom: 30px;
+}
