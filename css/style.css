@@ -7,12 +7,12 @@
     font-family: 'DM Sans', 'Arial', sans-serif; 
     font-weight: 400px;
     font-style: normal;
-    min-width: 991px;
+    min-width: 375px;
 }
 
 .container {
     max-width: 1320px;
-    min-width: 991px;
+    min-width: 375px;
     margin: 0 auto;
     padding: 0 120px;
 }
@@ -52,4 +52,10 @@
 }
 .form-text p {
     padding-bottom: 30px;
+}
+
+@media (max-width: 756px) {
+    .container {
+        padding: 0 30px;
+    }
 }
