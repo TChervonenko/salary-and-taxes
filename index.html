@@ -1,47 +1,42 @@
 <!DOCTYPE html>
 <html lang="uk">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
-</head>
-<body class="body">
+  </head>
+  <body class="body">
     <div class="bg">
-        <div class="container">
-    <header class="header">
-        <a href="#">
-            <img src="img/logo.png" width="30" height="24" alt="logo">
-        </a>
-        <h1 class="header-title">Твоя зарплата та податки</h1>
-    </header>
-</div>
-</div>
+      <div class="container">
+        <header class="header">
+          <a href="#">
+            <img src="img/logo.png" width="30" height="24" alt="logo" />
+          </a>
+          <h1 class="header-title">Твоя зарплата та податки</h1>
+        </header>
+      </div>
+    </div>
 
+    <div class="container">
+      <section class="tax-calculation">
+        <div class="form">
+          <p>
+            <label>
+              <p>Введіть розмір Вашої зарплати за рік:*</p>
+              <input type="text" name="salary" required autofocus />
+            </label>
+          </p>
+          <button class="button" type="submit">Підтвердити</button>
+        </div>
 
-
-<div class="container">
-<div class="form">
-    <div class="form-input">
-    <p>
-        <label>
-            <p>Введіть розмір Вашої зарплати за рік:*</p>
-            <input type="text" name="name" required autofocus>
-        </label>
-    </p>
-
-    <button class="button" type="submit">Підтвердити</button>
-</div>
-
-<div class="form-text"> 
-<p>Ваша зарплата за рік:</p>
-<p>Ви сплатили воєнний збір:</p>
-<p>Ви сплатили податок з доходів фізичних осіб:</p>
-</div>
-</div>
-</div>
-
-
-</body>
+        <div class="result">
+          <p>Ваша зарплата за рік:<span id="salary"></span></p>
+          <p>Ви сплатили воєнний збір:<span id="tax-military"></span></p>
+          <p>Ви сплатили податок з доходів фізичних осіб:<span id="tax-individuals"></span></p>
+        </div>
+      </section>
+    </div>
+  </body>
 </html>

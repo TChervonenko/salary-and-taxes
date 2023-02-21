@@ -32,12 +32,12 @@
     padding-bottom: 30px;
 }
 
-.form {
+.tax-calculation {
     margin-top: 30px;
     display: flex;
 }
 
-.form-input {
+.form {
     margin-right: 50px;
     max-width: 50%;
 }
@@ -46,16 +46,22 @@
     margin-top: 30px;
 }
 
-
-.form-text {
+.result {
     max-width: 50%;
 }
-.form-text p {
+
+.result p {
     padding-bottom: 30px;
 }
 
 @media (max-width: 756px) {
     .container {
         padding: 0 30px;
+    }
+    .tax-calculation {
+        flex-direction: column;
+    }
+    .form {
+        margin-bottom: 30px;
     }
 }
