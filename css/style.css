@@ -26,12 +26,16 @@
     padding-top: 30px;
 }
 
-.header-title {
-    font-size: 26px;
+.menu {
     margin-left: 30px;
     padding-bottom: 30px;
 }
-
+.header-logo {
+    font-size: 26px;
+    text-decoration: none;
+    text-align: center;
+    color: white;
+}
 .tax-calculation {
     margin-top: 30px;
     display: flex;
@@ -48,6 +52,10 @@
 
 .result {
     max-width: 50%;
+    margin: auto;
+    border-radius: 12px;
+    padding: 30px;
+    background-color: #e0ebeb;
 }
 
 .result p {
@@ -63,5 +71,8 @@
     }
     .form {
         margin-bottom: 30px;
+    }
+    .result {
+        max-width: 100%;
     }
 }

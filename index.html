@@ -4,39 +4,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="css/style.css" />
     <title>Document</title>
   </head>
+
   <body class="body">
     <div class="bg">
       <div class="container">
         <header class="header">
-          <a href="#">
-            <img src="img/logo.png" width="30" height="24" alt="logo" />
-          </a>
-          <h1 class="header-title">Твоя зарплата та податки</h1>
+          <nav class="menu">
+          <a class="header-logo" href="#">
+            <img src="img/logo.svg" width="30" height="35" alt="logo" />
+            Калькулятор податків із зарплати </a> 
+        </nav>
         </header>
       </div>
     </div>
-
+<main>
     <div class="container">
       <section class="tax-calculation">
         <div class="form">
           <p>
             <label>
-              <p>Введіть розмір Вашої зарплати за рік:*</p>
-              <input type="text" name="salary" required autofocus />
+              <p>Введіть розмір Вашої зарплати за рік:</p>
+              <input id='salary' type="text" name="salary" required autofocus />
             </label>
           </p>
-          <button class="button" type="submit">Підтвердити</button>
+          <button onclick="taxesCalculations ()" class="button" type="submit">Підтвердити</button>
         </div>
 
         <div class="result">
-          <p>Ваша зарплата за рік:<span id="salary"></span></p>
-          <p>Ви сплатили воєнний збір:<span id="tax-military"></span></p>
-          <p>Ви сплатили податок з доходів фізичних осіб:<span id="tax-individuals"></span></p>
+          
         </div>
       </section>
     </div>
+  </main>
+    <script src="./script.js"></script>
   </body>
 </html>
