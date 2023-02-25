@@ -1,13 +1,13 @@
 # salary-and-taxes
 
-РЈ С„Р°Р№Р»С– taxesCalculations Р’Рё Р·РЅР°Р№РґРµС‚Рµ РґРІС– С„СѓРЅРєС†С–С—, С‰Рѕ РґРѕРїРѕРјРѕР¶СѓС‚СЊ Р’Р°Рј СЂРѕР·СЂР°С…СѓРІР°С‚Рё СЃСѓРјРё РїРѕРґР°С‚РєС–РІ, СЏРєС– Р’Рё СЃРїР»Р°С‚РёР»Рё Р· Р’Р°С€РѕРіРѕ РґРѕС…РѕРґСѓ Р·Р° СЂС–Рє.
+У файлі taxesCalculations Ви знайдете дві функції, що допоможуть Вам розрахувати суми податків, які Ви сплатили з Вашого доходу за рік.
 
-Р¤СѓРЅРєС†С–СЏ calcMilitaryTax СЂР°С…СѓС” СЃРїР»Р°С‡РµРЅРёР№ РІС–Р№СЃСЊРєРѕРІРёР№ Р·Р±С–СЂ
+Функція calcMilitaryTax рахує сплачений військовий збір
 
-Р¤СѓРЅРєС†С–СЏ calcIndividualTax СЂР°С…СѓС” СЃРїР»Р°С‡РµРЅРёР№ РїРѕРґР°С‚РѕРє Р· РґРѕС…РѕРґС–РІ С„С–Р·РёС‡РЅРёС… РѕСЃС–Р±
+Функція calcIndividualTax рахує сплачений податок з доходів фізичних осіб
 
-РЇРєС– РґР°РЅС– РїРѕС‚СЂС–Р±РЅС– РґР»СЏ РІРёРєРѕСЂРёСЃС‚Р°РЅРЅСЏ С„СѓРЅРєС†С–С—?
+Які дані потрібні для використання функції?
 
-Р¤СѓРЅРєС†С–СЏ calcMilitaryTax РїСЂРёР№РјР°С” 3 Р°СЂРіСѓРјРµРЅС‚Рё: calcMilitaryTax (salary, bruttoSalary, percentTaxMilitary) salary = Number // Р’Р°С€Р° Р·Р°СЂРѕР±С–С‚РЅР° РїР»Р°С‚Р° Р·Р° СЂС–Рє; bruttoSalary = Number // Р’РёРєРѕСЂРёСЃС‚РѕРІСѓР№С‚Рµ Р·РЅР°С‡РµРЅРЅСЏ 0,805; percentTaxMilitary = Number // Р’РёРєРѕСЂРёСЃС‚РѕРІСѓР№С‚Рµ Р·РЅР°С‡РµРЅРЅСЏ 0,015 (РЎС‚Р°РІРєР° РїРѕРґР°С‚РєСѓ)
+Функція calcMilitaryTax приймає 3 аргументи: calcMilitaryTax (salary, bruttoSalary, percentTaxMilitary) salary = Number // Ваша заробітна плата за рік; bruttoSalary = Number // Використовуйте значення 0,805; percentTaxMilitary = Number // Використовуйте значення 0,015 (Ставка податку)
 
-Р¤СѓРЅРєС†С–СЏ calcIndividualTax РїСЂРёР№РјР°С” 3 Р°СЂРіСѓРјРµРЅС‚Рё: calcIndividualTax (salary, bruttoSalary, percentTaxIndividuals) salary = Number // Р’Р°С€Р° Р·Р°СЂРѕР±С–С‚РЅР° РїР»Р°С‚Р° Р·Р° СЂС–Рє; bruttoSalary = Number // Р’РёРєРѕСЂРёСЃС‚РѕРІСѓР№С‚Рµ Р·РЅР°С‡РµРЅРЅСЏ 0,805; percentTaxIndividuals = Number // Р’РёРєРѕСЂРёСЃС‚РѕРІСѓР№С‚Рµ Р·РЅР°С‡РµРЅРЅСЏ 0,18 (РЎС‚Р°РІРєР° РїРѕРґР°С‚РєСѓ)
+Функція calcIndividualTax приймає 3 аргументи: calcIndividualTax (salary, bruttoSalary, percentTaxIndividuals) salary = Number // Ваша заробітна плата за рік; bruttoSalary = Number // Використовуйте значення 0,805; percentTaxIndividuals = Number // Використовуйте значення 0,18 (Ставка податку)
